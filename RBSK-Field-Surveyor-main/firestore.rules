@@ -1,0 +1,20 @@
+rules_version='2'
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Surveys collection — authenticated users can read and write
+    match /surveys/{surveyId} {
+      allow read, write: if request.auth != null;
+    }
+
+    // DEIC cases collection — authenticated users can read and write
+    match /deic_cases/{caseId} {
+      allow read, write: if request.auth != null;
+
+      // Follow-up notes subcollection
+      match /followup_notes/{noteId} {
+        allow read, write: if request.auth != null;
+      }
+    }
+  }
+}
