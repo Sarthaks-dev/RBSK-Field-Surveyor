@@ -2,7 +2,7 @@
 
 🔗 **Live**: [rbsk-225ae.web.app](https://rbsk-225ae.web.app/)
 
-**Digital Intervention Hub** for India's Rashtriya Bal Swasthya Karyakram (RBSK) — the national child-health screening programme covering the **4 Ds**: Defects at birth, Diseases, Deficiencies, and Developmental delays.
+>**Digital Intervention Hub** for India's Rashtriya Bal Swasthya Karyakram (RBSK) — the national child-health screening programme covering the **4 Ds**: Defects at birth, Diseases, Deficiencies, and Developmental delays.
 
 A mobile-first Progressive Web App that lets field surveyors conduct standardised RBSK screenings, auto-generate DEIC case sheets, track follow-ups, and view program analytics — all from a single interface that works **offline**.
 
